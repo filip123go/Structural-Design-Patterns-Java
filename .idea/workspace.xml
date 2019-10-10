@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8061551e-e9ac-403d-984b-31d0a7a11247" name="Default Changelist" comment="" />
+    <list default="true" id="8061551e-e9ac-403d-984b-31d0a7a11247" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/BridgeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/BridgeEverydayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Detail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Formatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/MoviePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/PrintFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape1/BlueCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape1/BlueSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape1/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape1/GreenSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape1/RedCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape1/RedSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape1/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape1/Shape1BridgeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape1/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape2/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape2/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape2/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape2/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape2/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape2/Shape2BridgeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/shape2/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +47,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -27,7 +62,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1RuqG2G8O96p87oeJiKtC7MNQum" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -50,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BridgeDemo">
     <configuration name="AdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.AdapterDemo" />
       <module name="structuralpatterns" />
@@ -64,8 +101,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.BridgeDemo" />
+      <module name="structuralpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shape1BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.shape1.Shape1BridgeDemo" />
+      <module name="structuralpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bridge.shape1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shape2BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.shape2.Shape2BridgeDemo" />
+      <module name="structuralpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bridge.shape2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgeDemo" />
+        <item itemvalue="Application.Shape2BridgeDemo" />
+        <item itemvalue="Application.Shape1BridgeDemo" />
         <item itemvalue="Application.AdapterDemo" />
       </list>
     </recent_temporary>
@@ -82,11 +161,26 @@
       <updated>1570527228857</updated>
       <workItem from="1570527233545" duration="322000" />
       <workItem from="1570527590573" duration="4857000" />
-      <workItem from="1570541914747" duration="473000" />
+      <workItem from="1570541914747" duration="2631000" />
+      <workItem from="1570607403273" duration="1205000" />
+      <workItem from="1570699135001" duration="5700000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

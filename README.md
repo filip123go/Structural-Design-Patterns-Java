@@ -9,3 +9,11 @@ Adapter design pattern
 - Legacy
 - Retrofitted
 - Provides different interface
+
+Bridge design pattern
+
+- Designed upfront
+- Abstraction and implementation vary
+- Built in advance
+- Complex
+
