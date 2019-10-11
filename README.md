@@ -17,3 +17,11 @@ Bridge design pattern
 - Built in advance
 - Complex
 
+Composite design pattern
+
+- Tree structure
+- Leaf and Composite have same
+- interface
+- Unity between objects
+
+
