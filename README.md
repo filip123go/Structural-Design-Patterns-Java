@@ -24,4 +24,10 @@ Composite design pattern
 - interface
 - Unity between objects
 
+Decorator design pattern
+
+- Contains another entity
+- Modifies behavior (adds)
+- Doesn't change underlying object
+
 

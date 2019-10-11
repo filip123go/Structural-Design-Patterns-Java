@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8061551e-e9ac-403d-984b-31d0a7a11247" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/DecoratorSandwichDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/DressingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/MeatDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Sandwich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/SandwichDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/SimpleSandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,20 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompositeMenuDemo">
-    <configuration name="AdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.AdapterDemo" />
-      <module name="structuralpatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DecoratorSandwichDemo">
     <configuration name="BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bridge.BridgeDemo" />
       <module name="structuralpatterns" />
@@ -92,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorSandwichDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.DecoratorSandwichDemo" />
+      <module name="structuralpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorSandwichDemo" />
         <item itemvalue="Application.CompositeMenuDemo" />
         <item itemvalue="Application.BridgeDemo" />
         <item itemvalue="Application.Shape2BridgeDemo" />
         <item itemvalue="Application.Shape1BridgeDemo" />
-        <item itemvalue="Application.AdapterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +157,7 @@
       <workItem from="1570541914747" duration="2631000" />
       <workItem from="1570607403273" duration="1205000" />
       <workItem from="1570699135001" duration="6998000" />
-      <workItem from="1570793535850" duration="2764000" />
+      <workItem from="1570793535850" duration="5808000" />
     </task>
     <task id="LOCAL-00001" summary="Bridge design pattern">
       <created>1570711309759</created>
@@ -166,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570798565308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Composite design pattern">
+      <created>1570798637481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570798637481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
