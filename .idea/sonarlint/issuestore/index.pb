@@ -33,3 +33,39 @@ V
 &src/main/java/bridge/MoviePrinter.java,7\4\747bcb8e8d5f5d4d654bd925afe9006736059d7d
 [
 +src/main/java/bridge/shape1/BlueCircle.java,4\d\4df09af782e33c001285870d55e7dbfc0b895245
+\
+,src/main/java/bridge/shape1/GreenSquare.java,0\d\0df854e172c70a957dc250b62e8e695a51cef537
+a
+1src/main/java/bridge/shape1/Shape1BridgeDemo.java,3\8\385767e67ec2a08633cedb2517606fe39ebae47c
+U
+%src/main/java/bridge/shape2/Blue.java,a\4\a49f94ee7b153a85faa3c285f567fd1aa9362fa1
+W
+'src/main/java/bridge/shape2/Circle.java,b\b\bb2add145f6c3a6e347d965f43243d26a7c762b8
+V
+&src/main/java/bridge/shape2/Color.java,e\c\ec558f40ca1aad268d5e647cb293483f2bc3f03b
+V
+&src/main/java/bridge/shape2/Green.java,1\8\186348a2054f6a532d7b513c1a3a8002aca46b20
+T
+$src/main/java/bridge/shape2/Red.java,7\f\7f600412f851387f34cdcbefd2365ce901a3900d
+V
+&src/main/java/bridge/shape2/Shape.java,4\6\4649604061b9408b239ce4b3e040a918bf4504c7
+a
+1src/main/java/bridge/shape2/Shape2BridgeDemo.java,5\0\505acf541fc71067fb2e6e002ccca592fdbc93f4
+W
+'src/main/java/bridge/shape2/Square.java,6\1\6186a2aba798a83875315aee29ca386f9bf3f7eb
+\
+,src/main/java/bridge/BridgeEverydayDemo.java,b\b\bbf6750250204e4c55536e2d44c991c3293be385
+P
+ src/main/java/bridge/Detail.java,6\f\6fb5c5776ab466737c26aba8ff0f05a1f5754c21
+S
+#src/main/java/bridge/Formatter.java,1\7\1799c0d41ab97a5c7a362d3b5815b73322c626c0
+O
+src/main/java/bridge/Movie.java,c\5\c544ff1b851402dc82fd821c6bc7ff133f1d6166
+Q
+!src/main/java/bridge/Printer.java,6\6\66eade7b02277128d61689e75e7ddda9e2a29ea9
+X
+(src/main/java/bridge/PrintFormatter.java,e\c\ec6c71eb0d31c6ca79f1131bb2d0566160510e89
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+T
+$src/main/java/bridge/BridgeDemo.java,b\8\b86232f1ce92f49ca5cce84e8d9851ecf98ab2f6
