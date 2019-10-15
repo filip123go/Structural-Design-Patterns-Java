@@ -30,4 +30,10 @@ Decorator design pattern
 - Modifies behavior (adds)
 - Doesn't change underlying object
 
+Proxy design pattern
+
+ - Can add functionality, but not its main purpose
+ - Can only have one
+ - Compile time
+
 

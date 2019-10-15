@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8061551e-e9ac-403d-984b-31d0a7a11247" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/DecoratorSandwichDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/DressingDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/MeatDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Sandwich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/SandwichDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/SimpleSandwich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/DbSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/FacadeJdbcDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/JdbcFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/SecurityProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/TwitterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/TwitterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/TwitterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/TwitterServiceStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DecoratorSandwichDemo">
+  <component name="RunManager" selected="Application.TwitterDemo">
     <configuration name="BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bridge.BridgeDemo" />
       <module name="structuralpatterns" />
@@ -106,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shape1BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bridge.shape1.Shape1BridgeDemo" />
+    <configuration name="FacadeJdbcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facade.FacadeJdbcDemo" />
       <module name="structuralpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bridge.shape1.*" />
+          <option name="PATTERN" value="facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shape2BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bridge.shape2.Shape2BridgeDemo" />
+    <configuration name="TwitterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy.TwitterDemo" />
       <module name="structuralpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bridge.shape2.*" />
+          <option name="PATTERN" value="proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwitterDemo" />
+        <item itemvalue="Application.FacadeJdbcDemo" />
         <item itemvalue="Application.DecoratorSandwichDemo" />
         <item itemvalue="Application.CompositeMenuDemo" />
         <item itemvalue="Application.BridgeDemo" />
-        <item itemvalue="Application.Shape2BridgeDemo" />
-        <item itemvalue="Application.Shape1BridgeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +161,9 @@
       <workItem from="1570541914747" duration="2631000" />
       <workItem from="1570607403273" duration="1205000" />
       <workItem from="1570699135001" duration="6998000" />
-      <workItem from="1570793535850" duration="5808000" />
+      <workItem from="1570793535850" duration="6511000" />
+      <workItem from="1571041391671" duration="10796000" />
+      <workItem from="1571057389590" duration="4375000" />
     </task>
     <task id="LOCAL-00001" summary="Bridge design pattern">
       <created>1570711309759</created>
@@ -180,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570798637481</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Decorator design pattern">
+      <created>1570804179472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570804179472</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +215,43 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bridge design pattern" />
     <MESSAGE value="Composite design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composite design pattern" />
+    <MESSAGE value="Decorator design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator design pattern" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/facade/JdbcFacade.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/facade/JdbcFacade.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/facade/DbSingleton.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/facade/DbSingleton.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/facade/DbSingleton.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/proxy/TwitterServiceImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
