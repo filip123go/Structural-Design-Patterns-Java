@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8061551e-e9ac-403d-984b-31d0a7a11247" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/DbSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/FacadeJdbcDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facade/JdbcFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/SecurityProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/TwitterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/TwitterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/TwitterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/TwitterServiceStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8061551e-e9ac-403d-984b-31d0a7a11247" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +150,7 @@
       <workItem from="1570699135001" duration="6998000" />
       <workItem from="1570793535850" duration="6511000" />
       <workItem from="1571041391671" duration="10796000" />
-      <workItem from="1571057389590" duration="4375000" />
+      <workItem from="1571057389590" duration="4615000" />
     </task>
     <task id="LOCAL-00001" summary="Bridge design pattern">
       <created>1570711309759</created>
@@ -193,7 +180,35 @@
       <option name="project" value="LOCAL" />
       <updated>1570804179472</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Proxy design pattern">
+      <created>1571131184845</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571131184845</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Proxy design pattern">
+      <created>1571131230321</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571131230321</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Proxy design pattern">
+      <created>1571131340915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571131340915</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Proxy design pattern">
+      <created>1571131373945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571131373945</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +231,8 @@
     <MESSAGE value="Bridge design pattern" />
     <MESSAGE value="Composite design pattern" />
     <MESSAGE value="Decorator design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator design pattern" />
+    <MESSAGE value="Proxy design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
