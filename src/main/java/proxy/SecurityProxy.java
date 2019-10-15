@@ -18,7 +18,6 @@ public class SecurityProxy implements InvocationHandler {
 				.getClass().getInterfaces(), new SecurityProxy(obj));
 	}
 
-
 	@Override
 	public Object invoke(Object proxy, Method m, Object[] args) throws Throwable {
 		Object result;
